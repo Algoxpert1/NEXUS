@@ -6,13 +6,19 @@ You do not need to start with code. You can start with a prompt, a hypothesis, a
 
 At the same time, NEXUS does not stop at alpha generation. An alpha that looks good in backtesting can still fail in live trading. That is why NEXUS also includes a Verify layer to help you understand where that alpha is strong, where it is weak, and whether it is truly ready to move forward.
 
+## Quick navigation
+
+- Build from idea to candidate alpha: [How you use NEXUS](#how-you-use-nexus)
+- Understand the Verify layer: [What NEXUS Verify helps you do](#what-nexus-verify-helps-you-do)
+- Need verification now: [NEXUS Verification Service](https://verify.algoxpert.org/)
+
 ## Where to start
 
 At the current stage, the main way to use NEXUS is through the desktop application provided by the company.
 
 Download the application here:
 
-- [nexus-desktop_0.1.0_x64-setup.exe](releases/nexus-desktop_0.1.0_x64-setup.exe)
+- [nexus-desktop_2.0.0_x64-setup.exe](releases/nexus-desktop_2.0.0_x64-setup.exe)
 
 This repository is mainly intended to present the system and store related artifacts. At this stage, it is not yet a repository for end users to pull the full source code and operate the entire system on their own.
 

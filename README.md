@@ -135,3 +135,32 @@ If you have a trading idea and want to turn it into a more structured alpha, NEX
 If you already have an alpha and want to know whether it is truly solid enough to move forward, NEXUS Verify is the next review layer.
 
 Within that sequence, the `.exe` application helps you start the R&D process, while Verify helps you understand the alpha's strengths, weaknesses, and credibility before you make more important decisions.
+
+## Verification as the next phase after alpha generation
+
+NEXUS helps you create candidate alphas. Verify is the next layer for deciding what to trust with capital.
+
+In the NEXUS workflow, Verify is the phase after alpha generation; it is also available for teams who already have external alphas and want the same verification standard:
+
+- traders/researchers with existing in-house alphas
+- teams running paper strategies and preparing for live deployment
+- traders with live/challenge failures who need a root-cause diagnosis
+- builders who have decent backtests but unclear real-world robustness
+
+The common pain is usually the same: results may look acceptable, but the failure mode is still unknown.
+
+Verify focuses on that unknown through two layers: systematic stress-testing and expert quant review.  
+Automated checks can detect signals of weakness, but human quantitative judgment is used to interpret edge quality, fragility sources, and practical retest direction.
+
+Core failure-mode checks include:
+
+- slippage and execution decay
+- drawdown-rule mismatch
+- regime fragility
+- overfitting and parameter instability
+
+So the output is not just "good" or "bad". The goal is an evidence-based go/no-go view with clearer retest priorities before you commit more risk.
+
+If you have a candidate alpha, a paper/live strategy, or a failed run that you want to diagnose:
+
+- [NEXUS Verification Service](https://verify.algoxpert.org/)

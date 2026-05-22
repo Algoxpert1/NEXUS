@@ -19,6 +19,12 @@ At the current stage, the main way to use NEXUS is through the desktop applicati
 Download the application here:
 
 - [nexus-desktop_2.0.0_x64-setup.exe](releases/nexus-desktop_2.0.0_x64-setup.exe)
+- [Nexus_Verification_1.0.0.exe](releases/Nexus_Verification_1.0.0.exe) (standalone Verify installer)
+
+The standalone Verify installer is not the full verification stack yet, but it already supports several user-facing formats and can help with common verification workflows.
+For complex or unsupported cases, you can use the company's verification service:
+
+- [NEXUS Verification Service](https://verify.algoxpert.org/)
 
 This repository is mainly intended to present the system and store related artifacts. At this stage, it is not yet a repository for end users to pull the full source code and operate the entire system on their own.
 
